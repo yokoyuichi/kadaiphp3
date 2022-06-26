@@ -13,12 +13,9 @@ $lat = $_POST['lat'];
 $lon = $_POST['lon'];
 
 //2. DB接続します
-try {
-  //Password:MAMP='root',XAMPP=''
-  $pdo = new PDO('mysql:dbname=db_hunting;charset=utf8;host=localhost','root','');
-} catch (PDOException $e) {
-  exit('DBConnection Error:'.$e->getMessage());
-}
+include("funcs.php");  //funcs.phpを読み込む（関数群）
+ //1.  DB接続
+ $pdo = db_conn();      //DB接続関数
 
 
 //３．データ登録SQL作成
