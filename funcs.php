@@ -18,7 +18,7 @@ function db_conn(){
             $db_name = "yokoyuichi_db_hunting";  //データベース名
             $db_id   = "yokoyuichi";  //アカウント名（さくらコントロールパネルに表示されています）
             $db_pw   = "bo-bass61";  //パスワード(さくらサーバー最初にDB作成する際に設定したパスワード)
-            $db_host = "mysql57.yokoyuichi.sakura.ne.jp"; //例）mysql**db.ne.jp...
+            $db_host = "mysql618.db.sakura.ne.jp"; //例）mysql**db.ne.jp...
         }
         return new PDO('mysql:dbname='.$db_name.';charset=utf8;host='.$db_host, $db_id, $db_pw);
     } catch (PDOException $e) {
