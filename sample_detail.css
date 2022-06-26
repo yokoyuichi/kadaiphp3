@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+
+h1{
+  text-align: center;
+}  
+
+.form{
+   width: 70%;
+   margin:20px auto;
+   border: 1px solid #9c9c9c;
+   padding: 50px;
+   box-sizing: border-box;
+ }
+ 
+ .item{
+   margin-bottom: 20px;
+ }
+ 
+ .label_left{
+   display: inline-block;
+   width:25%;
+   border-left: solid 5px green;
+   padding-left: 15px;
+   vertical-align:top;
+ }
+ 
+.form input[type="text"], 
+.form input[type="number"]
+{
+     padding: 10px;
+     width: 65%;
+ }
+ 
+.form textarea{
+   padding: 10px;
+   height: 60px;
+   font-size: 14px;
+   width: 80%;
+ }
+ 
+.form select{
+   height: 35px;
+   width: 100%;
+ }
+ 
+ 
+#button{
+   background:green;
+   color: white;
+   font-size:16px;
+   font-weight:bold;
+   padding: 10px 20px;
+   margin: 0 5px;
+ }
+
+#get{
+    background: lightseagreen;
+   color: white;
+   font-size:16px;
+   font-weight:bold;
+   padding: 10px 20px;
+   margin: 20px
+}
+h3{
+    text-align: center;
+}
+
+#myMap{
+    margin: 20px auto;
+}
+
+table{
+  width: 100%;
+  border-collapse:separate;
+  border-spacing: 0;
+}
+
+table th:first-child{
+  border-radius: 5px 0 0 0;
+}
+
+table th:last-child{
+  border-radius: 0 5px 0 0;
+  border-right: 1px solid #3c6690;
+}
+
+table th{
+  text-align: center;
+  color:white;
+  background: linear-gradient(#b0bc82f7,#51771e);
+  border-left: 1px solid #3c6690;
+  border-top: 1px solid #3c6690;
+  border-bottom: 1px solid #3c6690;
+  box-shadow: 0px 1px 1px rgba(255,255,255,0.3) inset;
+  width: 12.5%;
+  padding: 10px 0;
+}
+
+table td{
+  text-align: center;
+  border-left: 1px solid #a8b7c5;
+  border-bottom: 1px solid #a8b7c5;
+  border-top:none;
+  box-shadow: 0px -3px 5px 1px #eee inset;
+  width: 12.5%;
+  padding: 10px 0;
+}
+
+table td:last-child{
+  border-right: 1px solid #a8b7c5;
+}
+
+table tr:last-child td:first-child {
+  border-radius: 0 0 0 5px;
+}
+
+table tr:last-child td:last-child {
+  border-radius: 0 0 5px 0;
+}
